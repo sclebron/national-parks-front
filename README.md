@@ -14,8 +14,6 @@
 
 ## Installation
 
-
-
 ## User Story
 
 ## Usage
@@ -25,5 +23,7 @@
 Sophie LeBron
 
 ## Github
+
+https://github.com/sclebron/national-parks
 
 ## Deployed Link
