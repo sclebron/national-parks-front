@@ -16,6 +16,8 @@ This application is for users who have a goal to visit each National Park. The u
 
 ## Installation
 
+npm install
+
 ## User Story
 
 ## Usage
