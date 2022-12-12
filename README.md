@@ -20,6 +20,12 @@ npm install
 
 ## User Story
 
+As a person who has a goal to visit every National Park
+I want an application to find information about each National Park as well as upload photos and diary entries from my visits to National Parks
+So that I can learn about the National Parks when planning a visit and so I can see which National Parks I have visited and memories from my travels
+
+Given that 
+
 ## Usage
 
 A user who does not have an account can browse National Parks to view information about different National Parks. If the user wants to create an account, they can click the Sign Up button, then enter their email and create a password and submit.
