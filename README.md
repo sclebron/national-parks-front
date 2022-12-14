@@ -25,7 +25,16 @@ I want an application to find information about each National Park as well as up
 So that I can learn about the National Parks when planning a visit and so I can see which National Parks I have visited and memories from my travels
 
 Given that I want to document my trips to each National Park
-
+When I go to the homepage
+Then I am able to sign up, login, or navigate to a page for a specific National Park
+When I am redirected to sign up
+Then I am prompted to enter my email, password, and re-enter my password
+When I am redirected to login 
+Then I am prompted to enter my email and password
+When I login
+Then I am redirected to my profile page
+When I navigate to a page for a specific National Park
+Then I 
 
 ## Usage
 
