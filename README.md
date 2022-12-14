@@ -33,8 +33,10 @@ When I am redirected to login
 Then I am prompted to enter my email and password
 When I login
 Then I am redirected to my profile page
-When I navigate to a page for a specific National Park
+When I am redirected to my profile page
 Then I 
+When I navigate to a page for a specific National Park
+Then I am presented with a page that provides me with 
 
 ## Usage
 
