@@ -24,7 +24,8 @@ As a person who has a goal to visit every National Park
 I want an application to find information about each National Park as well as upload photos and diary entries from my visits to National Parks
 So that I can learn about the National Parks when planning a visit and so I can see which National Parks I have visited and memories from my travels
 
-Given that 
+Given that I want to document my trips to each National Park
+
 
 ## Usage
 
