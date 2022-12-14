@@ -34,9 +34,9 @@ Then I am prompted to enter my email and password
 When I login
 Then I am redirected to my profile page
 When I am redirected to my profile page
-Then I 
+Then I am able to see which National Parks I have visited, which I have not visited yet, diary entries/pictures that I have uploaded, and upload new diary entries/pictures
 When I navigate to a page for a specific National Park
-Then I am presented with a page that provides me with 
+Then I am presented with a page that provides me with information about that National Park and I am able to select if I have visited that National Park
 
 ## Usage
 
