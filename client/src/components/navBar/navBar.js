@@ -1,12 +1,13 @@
 import React from 'react';
 import './navBar.css';
-import { Link } from "react-router-dom";
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function navBar() {
     return (
-        <div className="navBar">
-            
-        </div>
+        <Navbar bg="light" expand="lg" className="navbar">
+
+        </Navbar>
     )
 }
 
