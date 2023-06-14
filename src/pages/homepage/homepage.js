@@ -1,8 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import navBar from './navBar.js';
-import './homepage.css';
-
+import navBar from './components/navBar/navBar.js'
 
 
 function Homepage () {
@@ -16,7 +14,7 @@ function Homepage () {
         return () => {
             clearInterval(interval);
         };
-    }, [photo]);
+    }, [image]);
 
     const change = () => {
         if (image === 5) {
@@ -24,7 +22,7 @@ function Homepage () {
             return;
         }
 
-        setPhoto((prev) => prev + 1);
+        setImage((prev) => prev + 1);
     }
 
         const returnImageUrl = () => {
