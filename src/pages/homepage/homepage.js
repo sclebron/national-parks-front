@@ -38,7 +38,7 @@ function Homepage () {
                 case 4: 
                     return './images/gsdnp.jpg';
                 case 5: 
-                    return './images/img5.jp';
+                    return './images/bcgnp.jp';
             }
         }
 
