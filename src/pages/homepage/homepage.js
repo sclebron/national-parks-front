@@ -30,13 +30,13 @@ function Homepage () {
         const returnImageUrl = () => {
             switch(image) {
                 case 1: 
-                    return './images/img1.jpg';
+                    return './images/rmnp.jpg';
                 case 2: 
-                    return './images/img2.jpg';
+                    return './images/gtnp.jpg';
                 case 3: 
-                    return './images/img3.jpg';
+                    return './images/ynp.jpg';
                 case 4: 
-                    return './images/img4.jpg';
+                    return './images/gsdnp.jpg';
                 case 5: 
                     return './images/img5.jp';
             }
