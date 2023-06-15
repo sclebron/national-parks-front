@@ -1,8 +1,7 @@
 import React from 'react';
 // import { useEffect, useState } from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import gtnp from './images/gtnp.jpg';
+import Header from './components/header/header.js';
 import './homepage.css';
 
 function Homepage () {
@@ -44,19 +43,7 @@ function Homepage () {
 
     return (
         <div className="homeContainer">
-            <Navbar bg="dark" expand="lg" className="navbar">
-                <NavDropdown title="National Parks" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">
-                        Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">
-                        Separated link
-                    </NavDropdown.Item>
-                </NavDropdown>
-            </Navbar>
+            <Header />
             <div className="home">
                 <div style={{ backgroundImage: `url(${gtnp})` }} className="backgroundImg">
                 Welcome To Your National Parks Bucket List!
