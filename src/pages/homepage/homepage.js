@@ -1,8 +1,9 @@
 import React from 'react';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import gtnp from './images/gtnp.jpg';
+import './homepage.css';
 
 function Homepage () {
     // const [image, setImage] = useState(1);
