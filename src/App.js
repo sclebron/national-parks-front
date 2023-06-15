@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/national-parks-bucket-list/' element={<Homepage/>}/>
+          <Route path='/' element={<Homepage/>}/>
           <Route path='/park' element={<Park/>}/>
           <Route path='/profile' element={<Profile/>}/>
           <Route path='/list' element={<List/>}/>
