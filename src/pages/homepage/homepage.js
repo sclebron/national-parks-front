@@ -2,7 +2,7 @@ import React from 'react';
 // import { useEffect, useState } from 'react';
 import gtnp from './images/gtnp.jpg';
 // import Header from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/components/header/header.js';
-import Header from './src/components/header/header.js';
+import Header from '/components/header/header.js';
 import './homepage.css';
 
 function Homepage () {
