@@ -2,47 +2,48 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import gtnp from './images/gtnp.jpg';
 
 function Homepage () {
-    const [image, setImage] = useState(1);
+    // const [image, setImage] = useState(1);
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            change();
-        }, 10000);
+    // useEffect(() => {
+    //     const interval = setInterval(() => {
+    //         change();
+    //     }, 10000);
 
-        return () => {
-            clearInterval(interval);
-        };
-    }, [image]);
+    //     return () => {
+    //         clearInterval(interval);
+    //     };
+    // }, [image]);
 
-    const change = () => {
-        if (image === 5) {
-            setImage(1);
-            return;
-        }
+    // const change = () => {
+    //     if (image === 5) {
+    //         setImage(1);
+    //         return;
+    //     }
 
-        setImage((prev) => prev + 1);
-    }
+    //     setImage((prev) => prev + 1);
+    // }
 
-        const returnImageUrl = () => {
-            switch(image) {
-                case 1: 
-                    return './images/rmnp.jpg';
-                case 2: 
-                    return './images/gtnp.jpg';
-                case 3: 
-                    return './images/ynp.jpg';
-                case 4: 
-                    return './images/gsdnp.jpg';
-                case 5: 
-                    return './images/bcgnp.jp';
-            }
-        }
+    //     const returnImageUrl = () => {
+    //         switch(image) {
+    //             case 1: 
+    //                 return './images/rmnp.jpg';
+    //             case 2: 
+    //                 return './images/gtnp.jpg';
+    //             case 3: 
+    //                 return './images/ynp.jpg';
+    //             case 4: 
+    //                 return './images/gsdnp.jpg';
+    //             case 5: 
+    //                 return './images/bcgnp.jp';
+    //         }
+    //     }
 
     return (
         <div className="homeContainer">
-            <Navbar bg="light" expand="lg" className="navbar">
+            <Navbar bg="dark" expand="lg" className="navbar">
                 <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.2">
@@ -56,7 +57,7 @@ function Homepage () {
                 </NavDropdown>
             </Navbar>
             <div className="home">
-                <div style={{ backgroundImage: `url(${returnImageUrl()})` }} className="backgroundImg">
+                <div style={{ backgroundImage: `url(${gtnp})` }} className="backgroundImg">
                 Welcome To Your National Parks Bucket List!
                 </div>
             </div>
