@@ -1,24 +1,20 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import Dropdown from 'react-bootstrap/Dropdown';
 import './header.css';
 
 function Header() {
     return (
-        <div>
-            <Navbar bg="dark" expand="lg" className="navbar">
-                <NavDropdown title="National Parks" id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.2">
-                        Another action
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4">
-                        Separated link
-                    </NavDropdown.Item>
-                </NavDropdown>
-            </Navbar>
+        <div className="header">
+        <Dropdown>
+            <Dropdown.Toggle variant="success" id="dropdown-basic">
+                National Parks
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
+                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+            </Dropdown.Menu>
+        </Dropdown>
         </div>
     )
 }
