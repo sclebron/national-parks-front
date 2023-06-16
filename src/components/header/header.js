@@ -1,20 +1,17 @@
 import React from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
 import './header.css';
 
 function Header() {
     return (
         <div className="header">
-        <Dropdown>
-            <Dropdown.Toggle variant="success" id="dropdown-basic">
-                National Parks
-            </Dropdown.Toggle>
-            <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-            </Dropdown.Menu>
-        </Dropdown>
+            <DropdownButton id="dropdown-item-button" title="Dropdown button">
+                <Dropdown.ItemText>National Parks</Dropdown.ItemText>
+                <Dropdown.Item as="button">Action</Dropdown.Item>
+                <Dropdown.Item as="button">Another action</Dropdown.Item>
+                <Dropdown.Item as="button">Something else</Dropdown.Item>
+            </DropdownButton>
         </div>
     )
 }
