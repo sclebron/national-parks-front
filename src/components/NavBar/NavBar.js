@@ -15,4 +15,16 @@ function NavBar() {
     const onMouseEnter = () => {
         setDropdown(true)
     }
+
+    const onMouseLeave = () => {
+        setDropdown(false)
+    }
+
+    return (
+        <section>
+            <nav className="navbar">
+                
+            </nav>
+        </section>
+    )
 }
