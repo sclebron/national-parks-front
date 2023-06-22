@@ -19,4 +19,6 @@ function Homepage () {
     )
 }
 
+//might need to change the div with the background image and move that background image up a div to the one with the className "home"
+
 export default Homepage;
