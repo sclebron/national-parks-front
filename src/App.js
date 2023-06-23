@@ -9,6 +9,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <div className="menu-container">
+        <div classname="menu-trigger">National Parks</div>
+      </div>
       <Router>
         <Routes>
           <Route path='/' element={<Homepage/>}/>
