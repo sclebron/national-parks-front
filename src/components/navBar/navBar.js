@@ -6,7 +6,7 @@ function NavBar() {
     <div className="menu-container">
         <div classname="menu-trigger">National Parks</div>
         <div className="dropdown-menu">
-            <h3>The Kiet<br/><span>>Website Designer</span></h3>
+            <h3>The Kiet<br/><span>Website Designer</span></h3>
             <ul>
                 <DropdownItem/>
             </ul>
