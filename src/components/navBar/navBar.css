@@ -29,3 +29,25 @@ h3 {
     color: var(--primary-text-color);
     line-height: 1.2rem;
 }
+
+h3 span{
+    font-size: 14px;
+    color: var(--secondary-text-color);
+    font-weight: 400;
+}
+
+.dropdown-menu ul li{
+    padding: 10px 0;
+    border-top: 1px solid black;
+}
+
+.dropdown-menu ul li:hover a{
+    color: red;
+    cursor: pointer;
+}
+
+.dropdown-menu ul li:hover img{
+    opacity: 1;
+    cursor: pointer;
+}
+
