@@ -10,6 +10,11 @@ function NavBar() {
             <h3>The Kiet<br/><span>Website Designer</span></h3>
             <ul>
                 <DropdownItem img = {user} text = {"My Profile"}/>
+                <DropdownItem img={edit} text={"Edit Profile"}/>
+                <DropdownItem img={inbox} text={"Inbox"}/>
+                <DropdownItem img={settings} text={"Settings"}/>
+                <DropdownItem img={help} text={"Help"}/>
+                <DropdownItem img={logout} text={"Logout"}/>
             </ul>
         </div>
     </div>
