@@ -9,7 +9,7 @@ function NavBar() {
         <div className="dropdown-menu">
             <h3>The Kiet<br/><span>Website Designer</span></h3>
             <ul>
-                <DropdownItem/>
+                <DropdownItem img = {user} text = {"My Profile"}/>
             </ul>
         </div>
     </div>
