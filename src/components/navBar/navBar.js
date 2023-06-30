@@ -12,12 +12,12 @@ function NavBar() {
         <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
             <h3>The Kiet<br/><span>Website Designer</span></h3>
             <ul>
-                <DropdownItem img = {user} text = {"My Profile"}/>
-                <DropdownItem img={edit} text={"Edit Profile"}/>
-                <DropdownItem img={inbox} text={"Inbox"}/>
-                <DropdownItem img={settings} text={"Settings"}/>
-                <DropdownItem img={help} text={"Help"}/>
-                <DropdownItem img={logout} text={"Logout"}/>
+                <DropdownItem text = {"Acadia National Park"}/>
+                <DropdownItem text={"Arches National Park"}/>
+                <DropdownItem text={"Badlands National Park"}/>
+                <DropdownItem text={"Big Bend National Park"}/>
+                <DropdownItem text={"Biscayne National Park"}/>
+                <DropdownItem text={"Black Canyon of the Gunnison National Park"}/>
             </ul>
         </div>
     </div>
@@ -27,7 +27,6 @@ function NavBar() {
 function DropdownItem() {
     return(
         <li className="dropdownItem">
-            <img src={props.img}></img>
             <a>{props.text}</a>
         </li>
     );
