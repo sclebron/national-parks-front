@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-// import { UNSAFE_mapRouteProperties } from 'react-router';
+import React, { useState, useEffect } from 'react';
 import './navBar.css';
 
 function NavBar() {
 
     const [open, setOpen ] = useState(false);
 
+    useEffect()
+
     return (
     <div className="menu-container">
         <div classname="menu-trigger" onClick={()=>{setOpen(!open)}}>National Parks</div>
         <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
-            <h3>The Kiet<br/><span>Website Designer</span></h3>
             <ul>
                 <DropdownItem text = {"Acadia National Park"}/>
                 <DropdownItem text={"Arches National Park"}/>
