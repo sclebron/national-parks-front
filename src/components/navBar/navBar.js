@@ -1,4 +1,5 @@
 import React from 'react';
+import { UNSAFE_mapRouteProperties } from 'react-router';
 import './navBar.css';
 
 function NavBar() {
@@ -18,7 +19,8 @@ function NavBar() {
 function DropdownItem() {
     return(
         <li className="dropdownItem">
-            
+            <img src={props.img}></img>
+            <a>{props.text}</a>
         </li>
     );
 }
