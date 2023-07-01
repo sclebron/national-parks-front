@@ -10,8 +10,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
       <Router>
+        <NavBar/>
         <Routes>
           <Route path='/' element={<Homepage/>}/>
           <Route path='/park' element={<Park/>}/>
