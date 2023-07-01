@@ -35,10 +35,10 @@ function NavBar() {
             </ul>
         </div>
     </div>
-    )
+    );
 }
 
-function DropdownItem() {
+function DropdownItem(props) {
     return(
         <li className="dropdownItem">
             <a>{props.text}</a>
