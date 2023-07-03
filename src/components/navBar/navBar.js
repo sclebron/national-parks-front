@@ -30,7 +30,7 @@ function NavBar() {
 
     return (
     <div className="menu-container" ref={menuRef}>
-        <div classname="menu-trigger" onClick={()=>{setOpen(!open)}}>National Parks</div>
+        <div className="menu-trigger" onClick={()=>{setOpen(!open)}}>National Parks</div>
         <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
             <ul>
                 <DropdownItem text = {"Acadia National Park"} onClick={navigateToPark}/>
