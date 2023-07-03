@@ -1,7 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './navBar.css';
 
 function NavBar() {
+
+    const navigate = useNavigate();
+
+    const navigateToPark = () => {
+        navigate('/park')
+    }
 
     const [open, setOpen ] = useState(false);
 
@@ -26,7 +33,7 @@ function NavBar() {
         <div classname="menu-trigger" onClick={()=>{setOpen(!open)}}>National Parks</div>
         <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
             <ul>
-                <DropdownItem text = {"Acadia National Park"}/>
+                <DropdownItem text = {"Acadia National Park"} onClick={navigateToPark}/>
                 <DropdownItem text={"Arches National Park"}/>
                 <DropdownItem text={"Badlands National Park"}/>
                 <DropdownItem text={"Big Bend National Park"}/>
