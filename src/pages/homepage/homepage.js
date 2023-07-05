@@ -9,7 +9,7 @@ function Homepage () {
         <div className="homeContainer">
             <div className="home">
                 <div style={{ backgroundImage: `url(${npImg})` }} className="backgroundImg">
-                Welcome To Your National Parks Bucket List
+                    <div className="hometext">Welcome To Your National Parks Bucket List</div>
                 </div>
             </div>
         </div>
