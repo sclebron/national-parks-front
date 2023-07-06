@@ -37,24 +37,68 @@ function NavBar() {
                     Acadia National Park
                 </button>
             </Link>
-            {/* <ul>
-                <DropdownItem text = {"Acadia National Park"} onClick={navigateToPark}/>
-                <DropdownItem text={"Arches National Park"}/>
-                <DropdownItem text={"Badlands National Park"}/>
-                <DropdownItem text={"Big Bend National Park"}/>
-                <DropdownItem text={"Biscayne National Park"}/>
-                <DropdownItem text={"Black Canyon of the Gunnison National Park"}/>
-            </ul> */}
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Arches National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Badlands National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Big Bend National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Biscayne National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Black Canyon of the Gunnison National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Bryce Canyon National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Canyonlands National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Capitol Reef National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Carlsbad Caverns National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Channel Islands National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Congaree National Park
+                </button>
+            </Link>
+            <Link to="/park/">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
+                    Crater Lake National Park
+                </button>
+            </Link>
         </div>
     </div>
-    );
-}
-
-function DropdownItem(props) {
-    return(
-        <li className="dropdownItem">
-            <a>{props.text}</a>
-        </li>
     );
 }
 
