@@ -30,6 +30,14 @@
     transform: rotate(45deg);
 }
 
+.navBtn {
+    border: none;
+}
+
+.navBtn:hover {
+    cursor: pointer;
+}
+
 .dropdown-menu ul li {
     padding: 10px 0;
     border-top: 1px solid black;
