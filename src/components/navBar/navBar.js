@@ -33,7 +33,7 @@ function NavBar() {
         <div className="menu-trigger" onClick={()=>{setOpen(!open)}}>National Parks</div>
         <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
             <Link to="/park/">
-                <button className="navBtn" id="homepage">
+                <button className="navBtn" onClick={()=>{setOpen(false)}}>
                     Acadia National Park
                 </button>
             </Link>
