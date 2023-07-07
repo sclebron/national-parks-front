@@ -1,5 +1,5 @@
 import React from 'react';
-import npImg from './images/backgroundImgNP.jpg';
+// import npImg from './images/backgroundImgNP.jpg';
 //instead of importing header, import individual National Parks, Login, and Sign Up buttons
 import './homepage.css';
 
@@ -8,7 +8,7 @@ function Homepage () {
     return (
         <div className="homeContainer">
             <div className="home">
-                <div style={{ backgroundImage: `url(${npImg})` }} className="backgroundImg">
+                <div>
                     <div className="hometext">Welcome To Your National Parks Bucket List</div>
                 </div>
             </div>

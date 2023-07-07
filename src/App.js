@@ -5,11 +5,13 @@ import Park from './pages/park/park.js';
 import Profile from './pages/profile/profile.js';
 import List from './pages/list/list.js';
 import NavBar from './components/navBar/navBar.js';
+import npImg from './images/backgroundImgNP.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <div style={{ backgroundImage: `url(${npImg})` }} className="backgroundImg">
       <Router>
         <NavBar/>
         <Routes>
@@ -19,6 +21,7 @@ function App() {
           <Route path='/list' element={<List/>}/>
         </Routes>
       </Router>
+      </div>
     </div>
   );
 }
