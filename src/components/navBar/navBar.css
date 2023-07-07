@@ -2,6 +2,8 @@
     font-size: 23px;
     color: white;
     background: transparent;
+    height: 30px;
+    width: 200px;
 }
 
 .menu-trigger:hover {
