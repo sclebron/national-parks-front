@@ -6,6 +6,8 @@ import Profile from './pages/profile/profile.js';
 import List from './pages/list/list.js';
 import NavBar from './components/navBar/navBar.js';
 import npImg from './images/backgroundImgNP.jpg';
+import Login from './components/login/login.js';
+import SignUp from './components/signUp/signUp.js';
 import './App.css';
 
 function App() {
