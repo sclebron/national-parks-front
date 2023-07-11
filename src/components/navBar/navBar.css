@@ -1,6 +1,5 @@
-.menu-container {
-    margin-top: 10px;
-    width: 250px;
+.nav {
+    padding-top: 10px;
 }
 
 .menu-trigger {
@@ -9,7 +8,6 @@
     background: transparent;
     height: 30px;
     width: 175px;
-    /* margin creates white space, padding gets background color of button */
     margin-left: 25px;
 }
 

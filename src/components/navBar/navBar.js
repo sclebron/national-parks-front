@@ -23,6 +23,7 @@ function NavBar() {
     });
 
     return (
+    <div className="nav">
     <div className="menu-container" ref={menuRef}>
         <div className="menu-trigger" onClick={()=>{setOpen(!open)}}>National Parks</div>
         <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
@@ -342,6 +343,7 @@ function NavBar() {
                 </button>
             </Link>
         </div>
+    </div>
     </div>
     );
 }
