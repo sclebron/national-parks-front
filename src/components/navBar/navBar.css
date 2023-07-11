@@ -35,6 +35,9 @@
 
 .navBtn {
     border: none;
+    background-color: white;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .navBtn:hover {
