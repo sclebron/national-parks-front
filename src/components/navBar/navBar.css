@@ -3,11 +3,14 @@
     color: white;
     background: transparent;
     height: 30px;
-    width: 200px;
+    width: 175px;
+    border-top: 10px;
+    margin-left: 25px;
 }
 
 .menu-trigger:hover {
-    color: black;
+    background-color: lightgray;
+    border-radius: 5px;
     cursor: pointer;
 }
 
@@ -19,7 +22,7 @@
     border-radius: 5px;
     padding: 10px 20px;
     width: 200px;
-    height: 240px;
+    height: 230px;
     overflow: scroll;
 }
 
@@ -39,56 +42,21 @@
     background-color: white;
     font-size: 15px;
     line-height: 25px;
+    border-radius: 5px;
 }
 
 .navBtn:hover {
     cursor: pointer;
-}
-
-.dropdown-menu ul li {
-    padding: 10px 0;
-    border-top: 1px solid black;
-}
-
-.dropdown-menu ul li:hover a {
     color: white;
-    background-color: black;
-    cursor: pointer;
-}
-
-.dropdown-menu ul li:hover img {
-    opacity: 1;
-    cursor: pointer;
-}
-
-.dropdownItem {
-    display: flex;
-    margin: 10px auto;
-}
-
-.dropdownItem img {
-    max-width: 20px;
-    margin-right: 10px;
-    opacity: 0.5;
-    transition: var(--speed);
-}
-
-.dropdownItem a {
-    max-width: 100px;
-    margin-left: 10px;
-    transition: var(--speed);
+    background-color: lightgray;
 }
 
 .dropdown-menu.active {
     opacity: 1;
     visibility: visible;
-    transform: translateY(0);
-    transition: var(--speed) ease;
 }
 
 .dropdown-menu.inactive {
     opacity: 0;
     visibility: hidden;
-    transform: translateY(-20px);
-    transition: var(--speed) ease;
 }

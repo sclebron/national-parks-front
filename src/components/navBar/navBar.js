@@ -1,14 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { useNavigate, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './navBar.css';
 
 function NavBar() {
-
-    const navigate = useNavigate();
-
-    const navigateToPark = () => {
-        navigate('/park')
-    }
 
     const [open, setOpen ] = useState(false);
 
