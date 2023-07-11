@@ -4,7 +4,8 @@
     background: transparent;
     height: 30px;
     width: 175px;
-    border-top: 10px;
+    /* margin creates white space, padding gets background color of button */
+    margin-top: 10px;
     margin-left: 25px;
 }
 
