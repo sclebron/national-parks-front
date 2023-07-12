@@ -2,9 +2,11 @@ import React from 'react';
 import './login.css';
 
 function Login() {
+    
+
     return (
-        <div>
-            
+        <div className="login">
+            <button className="loginBtn">Login</button>
         </div>
     )
 }

@@ -1,0 +1,16 @@
+.login {
+    padding-top: 10px;
+}
+
+.loginBtn {
+    background: transparent;
+    color: white;
+    font-size: 23px;
+    border: none;
+}
+
+.loginBtn:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}

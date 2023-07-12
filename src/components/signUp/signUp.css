@@ -1,0 +1,16 @@
+.signup {
+    padding-top: 10px;
+}
+
+.signupBtn {
+    background: transparent;
+    color: white;
+    font-size: 23px;
+    border: none;
+}
+
+.signupBtn:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+}

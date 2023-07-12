@@ -16,6 +16,8 @@ function App() {
       <div style={{ backgroundImage: `url(${npImg})` }} className="backgroundImg">
       <Router>
         <NavBar/>
+        <Login/>
+        <SignUp/>
         <Routes>
           <Route path='/' element={<Homepage/>}/>
           <Route path='/park' element={<Park/>}/>
