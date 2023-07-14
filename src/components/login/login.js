@@ -1,15 +1,10 @@
 import React, { useState }from 'react';
 import './login.css';
+import { MdClose } from 'react-icons/md';
 
 function Login() {
 
-    const loginModal = () => {
-        const [isShowing, setIsShowing] = useState(false)
-
-        function toggle() {
-            setIsShowing(!isShowing)
-        }
-    }
+    
 
     return (
         <div className="login">
