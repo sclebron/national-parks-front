@@ -16,7 +16,9 @@ function Login() {
                 <div className="modalForm">
                     <MdClose size={25} className="closeIcon" onClick={() => setShowPopup(false)} />
                     <div className="modalContent">
-                        
+                        <div className="email"></div>
+                        <div className="password"></div>
+                        <button className="loginModalBtn">Login</button>
                     </div>
                 </div>
             </div>
