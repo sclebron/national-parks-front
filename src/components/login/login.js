@@ -8,10 +8,8 @@ function Login() {
 
     return (
         <div className="login">
-            <div className="modalBtn">
-                <button className="loginBtn" onClick={() => setShowPopup(!showPopup)}>Login</button>
-            </div>
-            <div className="loginModal" style={{visbility: showPopup? 'visibile' : 'hidden'}}>
+            <button className="loginBtn" onClick={() => setShowPopup(!showPopup)}>Login</button>
+            <div className="loginModal" style={{visbility: showPopup ? 'visibile' : 'hidden'}}>
                 <div className="modalBorder"></div>
                 <div className="modalForm">
                     <MdClose size={25} className="closeIcon" onClick={() => setShowPopup(false)} />
