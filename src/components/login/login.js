@@ -11,8 +11,14 @@ function Login() {
             <div className="modalBtn">
                 <button className="loginBtn" onClick={() => setShowPopup(!showPopup)}>Login</button>
             </div>
-            <div className="loginModal">
-                
+            <div className="loginModal" style={{visbility: showPopup? 'visibile' : 'hidden'}}>
+                <div className="modalBorder"></div>
+                <div className="modalForm">
+                    <MdClose size={25} className="closeIcon" onClick={() => setShowPopup(false)} />
+                    <div className="modalContent">
+                        
+                    </div>
+                </div>
             </div>
         </div>
     )
