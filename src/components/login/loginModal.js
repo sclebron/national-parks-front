@@ -1,11 +1,13 @@
 import React from 'react'
+import { MdClose } from 'react-icons/md';
+import './loginModal.css';
 
 function Modal({ open, children, onClose }) {
     if (!open) return null
 
     return (
         <div>
-            <button onClick={onClose}>Close Modal</button>
+            <MdClose className="closeBtn" onClick={onClose}>Close Modal</MdClose>
             {children}
         </div>
     )

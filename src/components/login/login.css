@@ -16,3 +16,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.loginModal {
+    background-color: white;
+}

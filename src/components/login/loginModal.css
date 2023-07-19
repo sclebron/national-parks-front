@@ -1,0 +1,7 @@
+.closeBtn {
+    size: 25;
+}
+
+.closeBtn:hover {
+    cursor: pointer;
+}
