@@ -14,3 +14,5 @@ function Modal({ open, children, onClose }) {
 }
 
 export default Modal;
+
+//make it so login button will close when clicked if modal is open
