@@ -11,7 +11,10 @@ function Login() {
         <div className="login">
             <button className="loginBtn" onClick={() => setIsOpen(true)}>Login</button>
             <Modal className="loginModal" open={isOpen} onClose={() => setIsOpen(false)}>
-                Fancy Modal
+                Login
+                username: 
+                password: 
+                <button className="loginModalBtn">Login</button>
             </Modal>
         </div>
     )
