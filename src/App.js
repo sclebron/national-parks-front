@@ -8,6 +8,7 @@ import NavBar from './components/navBar/navBar.js';
 import npImg from './images/backgroundImgNP.jpg';
 import Login from './components/login/login.js';
 import SignUp from './components/signUp/signUp.js';
+import Header from './components/header/header.js';
 import './App.css';
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
     <div className="App">
       <div style={{ backgroundImage: `url(${npImg})` }} className="backgroundImg">
       <Router>
-        <NavBar/>
+        <Header/>
+        {/* <NavBar/>
         <Login/>
-        <SignUp/>
+        <SignUp/> */}
         <Routes>
           <Route path='/' element={<Homepage/>}/>
           <Route path='/park' element={<Park/>}/>
