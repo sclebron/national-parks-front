@@ -12,10 +12,13 @@ function Login() {
             <button className="loginBtn" onClick={() => setIsOpen(true)}>Login</button>
             <Modal className="loginModal" open={isOpen} onClose={() => setIsOpen(false)}>
                 Login
+                <br></br>
                 username: 
                 <input></input>
+                <br></br>
                 password: 
                 <input></input>
+                <br></br>
                 <button className="loginModalBtn">Login</button>
             </Modal>
         </div>
