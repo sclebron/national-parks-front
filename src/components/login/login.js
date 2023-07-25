@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './login.css';
-import { MdClose } from 'react-icons/md';
 import Modal from './loginModal.js';
 
 function Login() {
