@@ -1,3 +1,8 @@
+.login {
+    width: 400px;
+    margin-left: 500px;
+}
+
 .loginBtn {
     background: transparent;
     color: white;
@@ -5,7 +10,6 @@
     border: none;
     height: 30px;
     width: 75px;
-    margin-top: 0;
 }
 
 .loginBtn:hover {

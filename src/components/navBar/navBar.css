@@ -2,6 +2,10 @@
     padding-top: 10px;
 }
 
+.menu-container {
+    width: 400px;
+}
+
 .menu-trigger {
     font-size: 23px;
     color: white;
