@@ -11,6 +11,7 @@ function Login() {
         <div className="login">
             <button className="loginBtn" onClick={() => setIsOpen(true)}>Login</button>
             <Modal className="loginModal" open={isOpen} onClose={() => setIsOpen(false)}>
+                <br></br>
                 Login
                 <br></br>
                 username: 
