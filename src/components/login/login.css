@@ -17,10 +17,6 @@
     cursor: pointer;
 }
 
-.loginModal {
-    background-color: white;
-}
-
 .loginModalBtn {
     border: none;
 }

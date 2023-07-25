@@ -6,7 +6,7 @@ function Modal({ open, children, onClose }) {
     if (!open) return null
 
     return (
-        <div>
+        <div className="modal">
             <MdClose className="closeBtn" onClick={onClose}>Close Modal</MdClose>
             {children}
         </div>
