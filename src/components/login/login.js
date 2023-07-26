@@ -13,10 +13,10 @@ function Login() {
                 <br></br>
                 <div className="loginModalHeader">Login</div>
                 <br></br>
-                <div>username:</div>
+                <div>Username:</div>
                 <input></input>
                 <br></br>
-                <div>password:</div>
+                <div>Password:</div>
                 <input></input>
                 <br></br>
                 <button className="loginModalBtn">Login</button>
