@@ -5,7 +5,7 @@ import SignUp from '/Users/sophielebron/Desktop/coding-projects/national-parks-f
 
 function Header() {
     return (
-        <div className="header">
+        <div className="header" style={{display: 'flex'}}>
             <NavBar/>
             <Login/>
             <SignUp/>
