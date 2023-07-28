@@ -1,0 +1,15 @@
+.modal {
+    background: white;
+    width: 350px;
+    z-index: 2;
+}
+
+.closeBtn {
+    height: 1.5em;
+    width: 1.5em;
+    margin-left: 0;
+}
+
+.closeBtn:hover {
+    cursor: pointer;
+}
