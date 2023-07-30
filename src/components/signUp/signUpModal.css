@@ -1,6 +1,7 @@
 .modal {
     background: white;
     width: 350px;
+    height: 250px;
     z-index: 2;
 }
 

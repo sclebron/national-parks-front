@@ -22,6 +22,7 @@ function SignUp() {
                 <div>Confirm Password:</div>
                 <input></input>
                 <br></br>
+                <br></br>
                 <button className="signupModalBtn">Sign Up</button>
             </Modal>
         </div>
