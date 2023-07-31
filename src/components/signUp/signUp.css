@@ -1,5 +1,4 @@
 .signup {
-    /* width: 100vh; */
     padding-top: 10px;
 }
 
@@ -16,4 +15,9 @@
     background-color: lightgray;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.signupModal {
+    position: relative;
+    z-index: 2;
 }

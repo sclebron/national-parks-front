@@ -1,7 +1,12 @@
+.modalContainer {
+    width: 100%;
+}
+
 .modal {
     background: white;
     width: 350px;
-    z-index: 2;
+    border-radius: 10px;
+    margin-left: 50%
 }
 
 .closeBtn {

@@ -1,5 +1,4 @@
 .login {
-    /* width: 100vh; */
     padding-top: 10px;
 }
 
@@ -20,6 +19,8 @@
 }
 
 .loginModal {
+    position: relative;
+    z-index: 2;
     margin-right: 50vh;
 }
 

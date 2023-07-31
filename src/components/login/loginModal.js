@@ -6,9 +6,11 @@ function Modal({ open, children, onClose }) {
     if (!open) return null
 
     return (
-        <div className="modal">
-            <MdClose className="closeBtn" onClick={onClose}>Close Modal</MdClose>
+        <div className="modalContainer">
+            <div className="modal">
+                <MdClose className="closeBtn" onClick={onClose}>Close Modal</MdClose>
             {children}
+            </div>
         </div>
     )
 }
