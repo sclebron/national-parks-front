@@ -1,5 +1,6 @@
 .login {
     padding-top: 10px;
+    width: 100%;
 }
 
 .loginBtn {
@@ -9,7 +10,7 @@
     border: none;
     height: 30px;
     width: 75px;
-    margin-left: 500px;
+    margin-left: 700px;
 }
 
 .loginBtn:hover {
