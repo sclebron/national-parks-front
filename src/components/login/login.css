@@ -23,11 +23,18 @@
 .loginModal {
     position: relative;
     z-index: 2;
-    margin-right: 50%;
 }
 
 .loginModalHeader {
     font-size: 25px;
+}
+
+.userInput {
+    margin-bottom: 3vh;
+}
+
+.passwordInput {
+
 }
 
 .loginModalBtn {

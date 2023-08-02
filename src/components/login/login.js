@@ -13,11 +13,9 @@ function Login() {
                 <br></br>
                 <div className="loginModalHeader">Login</div>
                 <br></br>
-                <div>Username:</div>
-                <input></input>
+                <input placeholder="Username" className="userInput"></input>
                 <br></br>
-                <div>Password:</div>
-                <input></input>
+                <input placeholder="Password" className="passwordInput"></input>
                 <br></br>
                 <button className="loginModalBtn">Login</button>
             </Modal>
