@@ -20,27 +20,29 @@
     cursor: pointer;
 }
 
-.loginModal {
-    position: relative;
-    z-index: 2;
-}
-
 .loginModalHeader {
     font-size: 25px;
 }
 
 .userInput {
     margin-bottom: 3vh;
+    border: solid 3px #688091ff;
+    border-radius: 5px;
 }
 
 .passwordInput {
-    
+    border: solid 3px #688091ff;
+    border-radius: 5px;
 }
 
 .loginModalBtn {
-    background-color: white;
-    border-radius: 5px;
-    font-size: 15px;
+    color: white;
+    /* background-color: #D6D6CAff; */
+    background-color: #688091ff;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 20px;
     margin: 15px;
 }
 
