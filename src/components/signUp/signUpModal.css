@@ -6,9 +6,11 @@
 }
 
 .closeBtn {
-    height: 1.5em;
-    width: 1.5em;
-    margin-left: 0;
+    display: flex;
+    margin-top: 7px;
+    margin-left: 7px;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .closeBtn:hover {

@@ -9,7 +9,7 @@ function Modal({ open, children, onClose }) {
         <div className="modalContainer">
             <div className="modal">
                 <MdClose className="closeBtn" onClick={onClose}>Close Modal</MdClose>
-            {children}
+                {children}
             </div>
         </div>
     )

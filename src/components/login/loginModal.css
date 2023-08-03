@@ -18,7 +18,8 @@
 
 .closeBtn {
     display: flex;
-    margin-left: 20px;
+    margin-top: 7px;
+    margin-left: 7px;
 }
 
 .closeBtn:hover {
