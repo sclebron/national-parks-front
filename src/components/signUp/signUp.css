@@ -12,7 +12,7 @@
 }
 
 .signupBtn:hover {
-    background-color: lightgray;
+    color: black;
     border-radius: 5px;
     cursor: pointer;
 }

@@ -15,7 +15,8 @@
 }
 
 .loginBtn:hover {
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    color: black;
     border-radius: 5px;
     cursor: pointer;
 }

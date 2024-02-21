@@ -13,7 +13,7 @@
 }
 
 .menu-trigger:hover {
-    background-color: lightgray;
+    color: black;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -50,7 +50,7 @@
 .navBtn:hover {
     cursor: pointer;
     color: white;
-    background-color: lightgray;
+    color: black;
 }
 
 .dropdown-menu.active {
