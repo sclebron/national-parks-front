@@ -20,19 +20,7 @@ function Login() {
         //         <button className="loginModalBtn">Login</button>
         //     </Modal>
         // </div>
-        <div className="login">
-                <Modal className="loginModal">
-                    <br></br>
-                    <div className="loginModalHeader">Login</div>
-                    <br></br>
-                    <input placeholder="Username" className="userInput"></input>
-                    <br></br>
-                    <input placeholder="Password" className="passwordInput"></input>
-                    <br></br>
-                    <button className="loginModalBtn">Login</button>
-                </Modal>
-        </div>
-    )
+    // )
 }
 
 export default Login;

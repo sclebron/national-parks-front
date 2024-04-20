@@ -20,7 +20,7 @@ function Modal({ open, children, onClose }) {
                     <br></br>
                     <button className="loginModalBtn">Login</button>
                 </Modal>
-        </div>
+            </div>
             </div>
         </div>
     )
