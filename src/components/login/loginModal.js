@@ -8,8 +8,19 @@ function Modal({ open, children, onClose }) {
     return (
         <div className="modalContainer">
             <div className="modal">
-                <MdClose className="closeBtn" onClick={onClose}>Close Modal</MdClose>
-                {children}
+                {/* <MdClose className="closeBtn" onClick={onClose}>Close Modal</MdClose> */}
+                <div className="login">
+                <Modal className="loginModal">
+                    <br></br>
+                    <div className="loginModalHeader">Login</div>
+                    <br></br>
+                    <input placeholder="Username" className="userInput"></input>
+                    <br></br>
+                    <input placeholder="Password" className="passwordInput"></input>
+                    <br></br>
+                    <button className="loginModalBtn">Login</button>
+                </Modal>
+        </div>
             </div>
         </div>
     )

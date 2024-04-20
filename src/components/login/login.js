@@ -21,7 +21,7 @@ function Login() {
         //     </Modal>
         // </div>
         <div className="login">
-                <Modal className="loginModal" open={isOpen} onClose={() => setIsOpen(false)}>
+                <Modal className="loginModal">
                     <br></br>
                     <div className="loginModalHeader">Login</div>
                     <br></br>
@@ -31,7 +31,7 @@ function Login() {
                     <br></br>
                     <button className="loginModalBtn">Login</button>
                 </Modal>
-            </div>
+        </div>
     )
 }
 
