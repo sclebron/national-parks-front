@@ -1,6 +1,7 @@
 import React from 'react';
 // import npImg from './images/backgroundImgNP.jpg';
 //instead of importing header, import individual National Parks, Login, and Sign Up buttons
+import Modal from './loginModal.js';
 import './homepage.css';
 
 function Homepage () {
@@ -10,7 +11,7 @@ function Homepage () {
             <div className="home">
                 <div>
                     <div className="hometext">Welcome To Your National Parks Bucket List</div>
-                    <div className="login-modal"></div>
+                    <Modal className="login-modal"></Modal>
                 </div>
             </div>
         </div>
