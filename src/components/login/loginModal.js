@@ -2,13 +2,11 @@ import React from 'react'
 import { MdClose } from 'react-icons/md';
 import './loginModal.css';
 
-function Modal({ open, children, onClose }) {
-    if (!open) return null
+function Modal() {
 
     return (
         <div className="modalContainer">
             <div className="modal">
-                {/* <MdClose className="closeBtn" onClick={onClose}>Close Modal</MdClose> */}
                 <div className="login">
                 <Modal className="loginModal">
                     <br></br>
