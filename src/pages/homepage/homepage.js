@@ -1,7 +1,7 @@
 import React from 'react';
 // import npImg from './images/backgroundImgNP.jpg';
 //instead of importing header, import individual National Parks, Login, and Sign Up buttons
-import Modal from './loginModal.js';
+import Modal from './login/loginModal.js';
 import './homepage.css';
 
 function Homepage () {
