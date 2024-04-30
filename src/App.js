@@ -5,7 +5,6 @@ import Park from './pages/park/park.js';
 import Profile from './pages/profile/profile.js';
 import List from './pages/list/list.js';
 import npImg from './images/backgroundImgNP.jpg';
-// import Header from './components/header/header.js';
 import './App.css';
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
     <div className="App">
       <div style={{ backgroundImage: `url(${npImg})` }} className="backgroundImg">
       <Router>
-        {/* <Header/> */}
         <Routes>
           <Route path='/' element={<Homepage/>}/>
           <Route path='/park' element={<Park/>}/>
