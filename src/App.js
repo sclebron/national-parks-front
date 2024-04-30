@@ -5,7 +5,7 @@ import Park from './pages/park/park.js';
 import Profile from './pages/profile/profile.js';
 import List from './pages/list/list.js';
 import npImg from './images/backgroundImgNP.jpg';
-import Header from './components/header/header.js';
+// import Header from './components/header/header.js';
 import './App.css';
 
 function App() {
