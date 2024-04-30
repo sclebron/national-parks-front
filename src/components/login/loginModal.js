@@ -1,5 +1,5 @@
 import React from 'react'
-import { MdClose } from 'react-icons/md';
+// import { MdClose } from 'react-icons/md';
 import './loginModal.css';
 
 function Modal() {

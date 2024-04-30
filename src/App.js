@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <div style={{ backgroundImage: `url(${npImg})` }} className="backgroundImg">
       <Router>
-        <Header/>
+        {/* <Header/> */}
         <Routes>
           <Route path='/' element={<Homepage/>}/>
           <Route path='/park' element={<Park/>}/>
