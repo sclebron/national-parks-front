@@ -10,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div style={{ backgroundImage: `url(${npImg})` }} className="backgroundImg">
+      {/* <div style={{ backgroundImage: `url(${npImg})` }} className="backgroundImg"> */}
       <Router>
         <Routes>
           <Route path='/' element={<Homepage/>}/>
@@ -19,7 +19,7 @@ function App() {
           <Route path='/list' element={<List/>}/>
         </Routes>
       </Router>
-      </div>
+      {/* </div> */}
     </div>
   );
 }
