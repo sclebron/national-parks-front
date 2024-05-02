@@ -11,6 +11,9 @@ function Homepage () {
                 <div>
                     <div className="hometext">Welcome To Your National Parks Bucket List</div>
                     {/* <Modal className="login-modal"></Modal> */}
+                    <div className="login-modal">
+
+                    </div>
                 </div>
             </div>
         </div>
