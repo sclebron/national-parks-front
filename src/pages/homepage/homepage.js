@@ -10,7 +10,7 @@ function Homepage () {
             <div className="home">
                 <div>
                     <div className="hometext">Welcome To Your National Parks Bucket List</div>
-                    <Modal className="login-modal"></Modal>
+                    {/* <Modal className="login-modal"></Modal> */}
                 </div>
             </div>
         </div>
