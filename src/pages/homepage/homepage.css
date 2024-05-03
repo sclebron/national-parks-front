@@ -10,3 +10,9 @@
     text-align: center;
     margin-left: 5%;
 }
+
+.home-menu {
+    background: white;
+    outline: none;
+    margin-top: 50%;
+}
