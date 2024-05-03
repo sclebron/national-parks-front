@@ -1,5 +1,5 @@
 import React from 'react';
-import peanutTeton from './images/peanutTeton.png';
+import peanutTeton from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/peanutTeton.png';
 import './homepage.css';
 
 function Homepage () {

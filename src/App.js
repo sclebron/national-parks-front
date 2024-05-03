@@ -4,7 +4,7 @@ import Homepage from './pages/homepage/homepage.js';
 import Park from './pages/park/park.js';
 import Profile from './pages/profile/profile.js';
 import List from './pages/list/list.js';
-import npImg from './images/backgroundImgNP.jpg';
+// import npImg from './images/backgroundImgNP.jpg';
 import './App.css';
 
 function App() {
