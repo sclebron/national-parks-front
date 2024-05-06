@@ -6,9 +6,9 @@
     font-size: 70px;
     font-weight: 200;
     position: absolute;
-    top: 5%;
     text-align: center;
     margin-left: 5%;
+    margin-top: 0%;
 }
 
 .home-menu {
@@ -19,6 +19,7 @@
 
 .pic-1 {
     height: 50vh;
+    margin-top: 20vh;
 }
 
 .pic-2 {

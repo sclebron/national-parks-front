@@ -15,7 +15,7 @@ function Homepage () {
             <div className="home">
                 <div>
                     <h1 className="hometext">Welcome To Your National Parks Bucket List</h1>
-                    <div classname="home-menu">Let The Adventure Begin!</div>
+                    {/* <div classname="home-menu">Let The Adventure Begin!</div> */}
                     <img src={peanutTeton} className="pic-1"></img>
                     <img src={bcog} className="pic-2"></img>
                     <img src={elk} className="pic-3"></img>
