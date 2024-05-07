@@ -11,7 +11,7 @@ import './homepage.css';
 function Homepage () {
 
     return (
-        <div className="homeContainer">
+        <div className="home-container">
             <div className="home">
                 <div>
                     <h1 className="hometext">Welcome To Your National Parks Bucket List</h1>
