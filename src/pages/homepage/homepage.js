@@ -11,20 +11,16 @@ import './homepage.css';
 function Homepage () {
 
     return (
-        <div className="home-container">
-            <div className="home">
-                <div>
-                    <div className="hometext">Welcome To Your National Parks Bucket List</div>
-                    <div classname="home-menu">Let The Adventure Begin!</div>
-                    <img src={peanutTeton} className="pic-1"></img>
-                    <img src={bcog} className="pic-2"></img>
-                    <img src={elk} className="pic-3"></img>
-                    <img src={moose} className="pic-4"></img>
-                    <img src={panorama} className="pic-5"></img>
-                    <img src={rockies} className="pic-6"></img>
-                    <img src={tetons} className="pic-7"></img>
-                </div>
-            </div>
+        <div className="home">
+            <div className="hometext">Welcome To Your National Parks Bucket List</div>
+            <div classname="home-menu">Let The Adventure Begin!</div>
+            <img src={peanutTeton} className="pic-1"></img>
+            <img src={bcog} className="pic-2"></img>
+            <img src={elk} className="pic-3"></img>
+            <img src={moose} className="pic-4"></img>
+            <img src={panorama} className="pic-5"></img>
+            <img src={rockies} className="pic-6"></img>
+            <img src={tetons} className="pic-7"></img>
         </div>
     )
 }
