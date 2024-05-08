@@ -5,16 +5,18 @@
 .hometext {
     font-size: 70px;
     font-weight: 200;
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
     margin-left: 5%;
-    margin-top: 0%;
+    margin-top: 3vh;
 }
 
 .home-menu {
     background: white;
     outline: none;
-    margin-top: 10%;
+    padding-top: 10vh;
+    /* position: relative; */
+    /* margin-top: 70vh; */
 }
 
 .pic-1 {
