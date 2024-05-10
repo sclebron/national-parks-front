@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import peanutTeton from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/peanutTeton.png';
 import bcog from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/bcog.png';
 import elk from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/elk.png';
@@ -10,10 +10,33 @@ import './homepage.css';
 
 function Homepage () {
 
+    const [open, setOpen ] = useState(false);
+
+    let menuRef = useRef();
+
+    useEffect(() => {
+        let handler = (e) => {
+            if(!menuRef.current.contains(e.target)) {
+                setOpen(false);
+            }
+        };
+
+        document.addEventListener("mousedown", handler)
+
+        return() => {
+            document.removeEventListener("mousedown", handler);
+        }
+    });
+
     return (
         <div className="home">
             <div className="hometext">Welcome To Your National Parks Bucket List</div>
-            <div classname="home-menu">Let The Adventure Begin!</div>
+            <div className="menu-container" ref={menuRef}>
+                <div classname="home-menu" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div>
+                <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}></div>
+                <div>Login</div>
+                <div>Sign Up</div>
+            </div>
             <img src={peanutTeton} className="pic-1"></img>
             <img src={rockies} className="pic-2"></img>
             <img src={panorama} className="pic-3"></img>
