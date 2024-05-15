@@ -33,9 +33,10 @@ function Homepage () {
             <div className="hometext">Welcome To Your National Parks Bucket List</div>
             <div className="menu-container" ref={menuRef}>
                 <div classname="home-menu" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div>
-                <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}></div>
-                <div>Login</div>
-                <div>Sign Up</div>
+                <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
+                    <button>Login</button>
+                    <button>Sign Up</button>
+                </div>
             </div>
             <img src={peanutTeton} className="pic-1"></img>
             <img src={rockies} className="pic-2"></img>
