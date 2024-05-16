@@ -34,8 +34,8 @@ function Homepage () {
             <div className="menu-container" ref={menuRef}>
                 <div classname="home-menu" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div>
                 <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
-                    <button>Login</button>
-                    <button>Sign Up</button>
+                    <button className="navBtn" onClick={()=>{setOpen(false)}}>Login</button>
+                    <button className="navBtn" onClick={()=>{setOpen(false)}}>Sign Up</button>
                 </div>
             </div>
             <img src={peanutTeton} className="pic-1"></img>

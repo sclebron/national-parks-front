@@ -17,6 +17,21 @@
     padding-top: 10vh;
 }
 
+.menu-trigger {
+    font-size: 23px;
+    color: white;
+    background: transparent;
+    height: 30px;
+    width: 175px;
+    margin-left: 25px;
+}
+
+.menu-trigger:hover {
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .pic-1 {
     height: 50vh;
     margin-top: 5vh;
