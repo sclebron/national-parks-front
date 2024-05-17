@@ -32,7 +32,8 @@ function Homepage () {
         <div className="home">
             <div className="hometext">Welcome To Your National Parks Bucket List</div>
             <div className="menu-container" ref={menuRef}>
-                <div classname="home-menu" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div>
+                {/* <div classname="home-menu" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div> */}
+                <div classname="menu-trigger" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div>
                 <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
                     <button className="navBtn" onClick={()=>{setOpen(false)}}>Login</button>
                     <button className="navBtn" onClick={()=>{setOpen(false)}}>Sign Up</button>
