@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import peanutTeton from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/peanutTeton.png';
 import bcog from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/bcog.png';
-import elk from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/elk.png';
 import moose from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/moose.png';
 import panorama from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/panorama.png';
 import rockies from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/rockies.png';

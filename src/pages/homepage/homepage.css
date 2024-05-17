@@ -18,17 +18,12 @@
 }
 
 .menu-trigger {
-    font-size: 23px;
-    color: white;
-    background: transparent;
-    height: 30px;
-    width: 175px;
-    margin-left: 25px;
+    background: white;
+    outline: none;
+    padding-top: 10vh;
 }
 
 .menu-trigger:hover {
-    color: black;
-    border-radius: 5px;
     cursor: pointer;
 }
 
