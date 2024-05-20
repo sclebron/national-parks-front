@@ -9,33 +9,15 @@ import './homepage.css';
 
 function Homepage () {
 
-    const [open, setOpen ] = useState(false);
-
-    let menuRef = useRef();
-
-    useEffect(() => {
-        let handler = (e) => {
-            if(!menuRef.current.contains(e.target)) {
-                setOpen(false);
-            }
-        };
-
-        document.addEventListener("mousedown", handler)
-
-        return() => {
-            document.removeEventListener("mousedown", handler);
-        }
-    });
-
     return (
         <div className="home">
             <div className="hometext">Welcome To Your National Parks Bucket List</div>
-            <div className="menu-container" ref={menuRef}>
+            <div className="menu-container">
                 {/* <div classname="home-menu" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div> */}
-                <div classname="menu-trigger" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div>
-                <div className={`dropdown-menu ${open? 'active' : 'inactive'}`}>
-                    <button className="navBtn" onClick={()=>{setOpen(false)}}>Login</button>
-                    <button className="navBtn" onClick={()=>{setOpen(false)}}>Sign Up</button>
+                <div classname="menu-trigger">Let The Adventure Begin!</div>
+                <div className="menu">
+                    <button className="navBtn">Login</button>
+                    <button className="navBtn">Sign Up</button>
                 </div>
             </div>
             <img src={peanutTeton} className="pic-1"></img>
