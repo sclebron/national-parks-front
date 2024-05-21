@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import peanutTeton from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/peanutTeton.png';
 import bcog from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/bcog.png';
 import moose from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/moose.png';
@@ -9,16 +9,20 @@ import './homepage.css';
 
 function Homepage () {
 
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
     return (
         <div className="home">
             <div className="hometext">Welcome To Your National Parks Bucket List</div>
             <div className="menu-container">
                 {/* <div classname="home-menu" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div> */}
-                <div classname="menu-trigger">Let The Adventure Begin!</div>
-                <div className="menu">
-                    <button className="navBtn">Login</button>
-                    <button className="navBtn">Sign Up</button>
-                </div>
+                <div classname="menu-trigger" onClick={() => setIsMenuOpen(!isMenuOpen)}>Let The Adventure Begin!</div>
+                {isMenuOpen && (
+                    <div className="menu">
+                        <button className="navBtn">Login</button>
+                        <button className="navBtn">Sign Up</button>
+                    </div>
+                )}
             </div>
             <img src={peanutTeton} className="pic-1"></img>
             <img src={rockies} className="pic-2"></img>
