@@ -16,11 +16,11 @@ function Homepage () {
             <div className="hometext">Welcome To Your National Parks Bucket List</div>
             <div className="menu-container">
                 {/* <div classname="home-menu" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div> */}
-                <div classname="menu-trigger" onClick={() => setIsMenuOpen(!isMenuOpen)}>Let The Adventure Begin!</div>
+                <div classname="trigger" onClick={() => setIsMenuOpen(!isMenuOpen)}>Let The Adventure Begin!</div>
                 {isMenuOpen && (
                     <div className="menu">
-                        <button className="navBtn">Login</button>
-                        <button className="navBtn">Sign Up</button>
+                        <button className="nav-btn">Login</button>
+                        <button className="nav-btn">Sign Up</button>
                     </div>
                 )}
             </div>

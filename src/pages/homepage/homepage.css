@@ -17,13 +17,21 @@
     padding-top: 10vh;
 }
 
-.menu-trigger {
+.menu-container:hover {
+    cursor: pointer;
+}
+
+.trigger {
     background: white;
     outline: none;
     padding-top: 10vh;
 }
 
-.menu-trigger:hover {
+.trigger:hover {
+    cursor: pointer;
+}
+
+.nav-btn:hover {
     cursor: pointer;
 }
 

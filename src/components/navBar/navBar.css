@@ -12,11 +12,11 @@
     margin-left: 25px;
 }
 
-.menu-trigger:hover {
+/* .menu-trigger:hover {
     color: black;
     border-radius: 5px;
     cursor: pointer;
-}
+} */
 
 .dropdown-menu {
     position: absolute;
