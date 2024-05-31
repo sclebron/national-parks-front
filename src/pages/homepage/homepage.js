@@ -15,7 +15,6 @@ function Homepage () {
         <div className="home">
             <div className="hometext">Welcome To Your National Parks Bucket List</div>
             <div className="menu-container">
-                {/* <div classname="home-menu" onClick={()=>{setOpen(!open)}}>Let The Adventure Begin!</div> */}
                 <div classname="trigger" onClick={() => setIsMenuOpen(!isMenuOpen)}>Let The Adventure Begin!</div>
                 {isMenuOpen && (
                     <div className="menu">
@@ -28,7 +27,6 @@ function Homepage () {
                 <img src={peanutTeton} className="pic-1"></img>
                 <img src={rockies} className="pic-2"></img>
                 <img src={panorama} className="pic-3"></img>
-                {/* <img src={elk} className="pic-4"></img> */}
                 <img src={bcog} className="pic-4"></img>
                 <img src={moose} className="pic-5"></img>
                 <img src={tetons} className="pic-6"></img>
