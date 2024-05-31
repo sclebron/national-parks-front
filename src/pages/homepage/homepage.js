@@ -19,6 +19,7 @@ function Homepage () {
                 {isMenuOpen && (
                     <div className="menu">
                         <button className="nav-btn">Login</button>
+                        <br/>
                         <button className="nav-btn">Sign Up</button>
                     </div>
                 )}
