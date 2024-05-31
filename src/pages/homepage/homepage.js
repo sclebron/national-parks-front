@@ -24,13 +24,15 @@ function Homepage () {
                     </div>
                 )}
             </div>
-            <img src={peanutTeton} className="pic-1"></img>
-            <img src={rockies} className="pic-2"></img>
-            <img src={panorama} className="pic-3"></img>
-            {/* <img src={elk} className="pic-4"></img> */}
-            <img src={bcog} className="pic-4"></img>
-            <img src={moose} className="pic-5"></img>
-            <img src={tetons} className="pic-6"></img>
+            <div className="home-pics">
+                <img src={peanutTeton} className="pic-1"></img>
+                <img src={rockies} className="pic-2"></img>
+                <img src={panorama} className="pic-3"></img>
+                {/* <img src={elk} className="pic-4"></img> */}
+                <img src={bcog} className="pic-4"></img>
+                <img src={moose} className="pic-5"></img>
+                <img src={tetons} className="pic-6"></img>
+            </div>
         </div>
     )
 }

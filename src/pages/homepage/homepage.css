@@ -11,10 +11,12 @@
     margin-bottom: 3vh;
 }
 
-.home-menu {
-    background: white;
-    outline: none;
-    padding-top: 10vh;
+.hometext:hover {
+    cursor: default;
+}
+
+.menu-container {
+    z-index: 1;
 }
 
 .menu-container:hover {
@@ -31,8 +33,16 @@
     cursor: pointer;
 }
 
+.nav-btn {
+    margin-top: 2vh;
+}
+
 .nav-btn:hover {
     cursor: pointer;
+}
+
+.home-pics {
+    z-index: -1;
 }
 
 .pic-1 {
