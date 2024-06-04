@@ -10,6 +10,8 @@ import './homepage.css';
 function Homepage () {
 
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isLoginOpen, setIsLoginOpen] = useState(false);
+    const [isSignUpOpen, setIsSignUpOpen] = useState(false);
 
     return (
         <div className="home">
@@ -18,9 +20,9 @@ function Homepage () {
                 <div classname="trigger" onClick={() => setIsMenuOpen(!isMenuOpen)}>Let The Adventure Begin!</div>
                 {isMenuOpen && (
                     <div className="menu">
-                        <button className="nav-btn">Login</button>
+                        <button className="nav-btn" onClick={() => setIsLoginOpen(!isLoginOpen)}>Login</button>
                         <br/>
-                        <button className="nav-btn">Sign Up</button>
+                        <button className="nav-btn" onClick={() => setIsSignUpOpen(!isSignUpOpen)}>Sign Up</button>
                     </div>
                 )}
             </div>
