@@ -23,14 +23,14 @@ function Homepage () {
                     <div className="menu">
                         <button className="nav-btn" onClick={() => setIsLoginOpen(!isLoginOpen)}>Login</button>
                         {isLoginOpen && (
-                            <div>
+                            <div className="login-modal">
                                 <h1>Login</h1>
                             </div>
                         )}
                         <br/>
                         <button className="nav-btn" onClick={() => setIsSignUpOpen(!isSignUpOpen)}>Sign Up</button>
                         {isSignUpOpen && (
-                            <div>
+                            <div className="signup-modal">
                                 <h1>Sign Up</h1>
                             </div>
                         )}
