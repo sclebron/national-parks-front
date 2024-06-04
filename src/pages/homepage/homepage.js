@@ -6,6 +6,7 @@ import panorama from '/Users/sophielebron/Desktop/coding-projects/national-parks
 import rockies from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/rockies.png';
 import tetons from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/tetons.png';
 import './homepage.css';
+import { Modal } from 'react-bootstrap';
 
 function Homepage () {
 
@@ -21,8 +22,18 @@ function Homepage () {
                 {isMenuOpen && (
                     <div className="menu">
                         <button className="nav-btn" onClick={() => setIsLoginOpen(!isLoginOpen)}>Login</button>
+                        {isLoginOpen && (
+                            <div>
+                                <h1>Login</h1>
+                            </div>
+                        )}
                         <br/>
                         <button className="nav-btn" onClick={() => setIsSignUpOpen(!isSignUpOpen)}>Sign Up</button>
+                        {isSignUpOpen && (
+                            <div>
+                                <h1>Sign Up</h1>
+                            </div>
+                        )}
                     </div>
                 )}
             </div>
