@@ -49,6 +49,16 @@
     cursor: pointer;
 }
 
+.login-modal {
+    position: relative;
+    z-index: 20;
+}
+
+.signup-modal {
+    position: relative;
+    z-index: 20;
+}
+
 .home-pics {
     position: relative;
     z-index: -1;
