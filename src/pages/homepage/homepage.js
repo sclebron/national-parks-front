@@ -6,6 +6,8 @@ import panorama from '/Users/sophielebron/Desktop/coding-projects/national-parks
 import rockies from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/rockies.png';
 import tetons from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/tetons.png';
 import './homepage.css';
+import canyon from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/canyon.png';
+import canyonPlant from '/Users/sophielebron/Desktop/coding-projects/national-parks-front/src/images/canyonPlant.png';
 import { Modal } from 'react-bootstrap';
 
 function Homepage () {
@@ -51,8 +53,10 @@ function Homepage () {
                 <img src={rockies} className="pic-2"></img>
                 <img src={panorama} className="pic-3"></img>
                 <img src={bcog} className="pic-4"></img>
+                <img src={canyon} className="pic-7"></img>
                 <img src={moose} className="pic-5"></img>
                 <img src={tetons} className="pic-6"></img>
+                <img src={canyonPlant} className="pic-8"></img>
             </div>
         </div>
     )
